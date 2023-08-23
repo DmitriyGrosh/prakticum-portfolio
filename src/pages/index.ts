@@ -8,6 +8,7 @@ export const routes = [
 	{ path: '/home', component: Home },
 	{ path: '/video', component: Video },
 	{ path: '/meme', component: JavaScriptFeature },
+	{ path: '/', redirect: '/home' }
 
 ];
 

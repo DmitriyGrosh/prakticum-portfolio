@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { type TSkillCard } from "./types";
+import { type TSkillCard } from "../../types";
 
 const {
   title,

@@ -1,7 +1,8 @@
 <script setup lang="ts">
 import { SkilCard } from './ui/SkillCard';
+import { type TSkillCard } from "@/pages/Home/types";
 
-const cards = [
+const cards: (TSkillCard & { id: number })[] = [
   {
     id: 1,
     title: 'Творчество и Реализация Идей',
