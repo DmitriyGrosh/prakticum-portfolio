@@ -4,7 +4,7 @@
 
 <template>
   <div class="video">
-    <video src="@/assets/video/test.mp4" autoplay loop>
+    <video src="@/assets/video/grosh.mp4" autoplay loop>
     </video>
   </div>
 </template>
